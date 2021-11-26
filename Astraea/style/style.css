@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Dongle&family=Playfair+Display&family=Rubik&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+nav {
+  
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+}
+li {
+  margin-top: 45px;  
+  list-style: none;
+  font-size: 20px;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+li a:hover {
+  background-color: black;
+  color: white;
+}
+.cover {
+  width: 100%;
+  position: relative;
+}
+.text {
+  margin: 5px 0;
+  
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.637);
+  font-weight: bolder;
+  border: 4px solid black;
+  max-width: 800px;
+}
+.cover-img {
+  margin: 5% 10%;
+  width: 80%;
+
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgb(212, 212, 212);
+}
+.container {
+margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+background-image: linear-gradient(to right top, #bea2ff, #cfa0fc, #df9ff7, #ee9ef1, #fb9deb);}
+.box{
+  margin: 100px 10px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.616);
+  
+}
+.howitwork-heading{
+    
+    color: black;
+    
+    text-align: center;
+    font-size: 100px;
+}
+
+.innerBox p{
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 15px;
+    height: 150px;
+    
+}
+.innerBox button{
+    border: none;
+    font-size: 20px;
+    width: 160px;
+    cursor: pointer;
+    padding: 10px;
+}
+.innerBox button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+  height: 250px;
+}

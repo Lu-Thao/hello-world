@@ -1,0 +1,25 @@
+h1{
+    position: relative;
+    width: max-content;
+}
+h1::before,
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+h1::before{
+    background: white;
+    animation: typewriter 3s steps(26) forwards;
+}
+
+@keyframes typewriter {
+    to{
+        left: 100%;
+    }
+    
+}
